@@ -59,4 +59,10 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 		containing the shell commands used to run the kubernetes
 	* upload_docker.sh
 		containing the shell commands used to push the docker container to the docker hub
+	* output_txt_files
+		containing the log in the shell when making a prediction in a docker container and using kubernetes
+	* model_data
+		containing the data used to train the machine learning model
+	* .circleci
+		containing the circleci configuration
 		
