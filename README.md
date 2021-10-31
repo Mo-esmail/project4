@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+
 [![CircleCI](https://circleci.com/gh/Mo-esmail/project4/tree/main.svg?style=svg)](https://circleci.com/gh/Mo-esmail/project4/tree/main)
 
 ## Project Overview
@@ -26,7 +26,8 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ## Setup the Environment
 
-* Create a virtualenv and activate it
+* Create a virtualenv `python3 -m venv ~/.app`
+* activate it `source ~/.app/bin/activate`
 * Run `make install` to install the necessary dependencies
 
 ### Running `app.py`
@@ -41,3 +42,21 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+### files encluded
+	* Dockerfile
+		containing the docker image configuration 
+	* Makefile
+		containing the basic make commands used to set up the project
+	* app.py
+		Containing the code for the machine learning model
+	* make_prediction.sh
+		containing the shell commands used to make a prediction
+	* requirements.txt
+		contains the dependancies for the project
+	* run_docker.sh
+		containing the shell commands used to run the docker container
+	* run_kubernetes.sh 
+		containing the shell commands used to run the kubernetes
+	* upload_docker.sh
+		containing the shell commands used to push the docker container to the docker hub
+		
